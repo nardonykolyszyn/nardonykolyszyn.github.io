@@ -47,13 +47,13 @@ body {
 }
 
 a {
-  color: #FF9000;
+  color: #bb2223;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 a:hover, a:active, a:focus {
-  color: #FF9000;
+  color: rgb(26, 24, 23);
   outline: none;
   text-decoration: none;
 }
@@ -71,17 +71,17 @@ h1, h2, h3, h4, h5, h6, figure {
 
 ::-webkit-selection {
   color: #fff;
-  background: #FF9000;
+  background: rgb(26, 24, 23);
 }
 
 ::-moz-selection {
   color: #fff;
-  background: #FF9000;
+  background: rgb(26, 24, 23);
 }
 
 ::selection {
   color: #fff;
-  background: #FF9000;
+  background: rgb(26, 24, 23);
 }
 
 #fh5co-header,
@@ -100,7 +100,7 @@ h1, h2, h3, h4, h5, h6, figure {
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(255, 144, 0, 0.9);
+  background: rgba(65, 66, 66, 0.9);
 }
 #fh5co-header .display-t,
 .fh5co-cover .display-t {
@@ -222,7 +222,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 #fh5co-features {
-  background: #FF9000;
+  background: rgb(26, 24, 23);;
 }
 #fh5co-features h2 {
   color: #fff;
@@ -257,7 +257,7 @@ h1, h2, h3, h4, h5, h6, figure {
   display: table-cell;
   vertical-align: middle;
   height: 100px;
-  color: #FF9000 !important;
+  color: rgb(26, 24, 23); !important;
 }
 #fh5co-features .feature-left .feature-copy {
   width: 100%;
@@ -308,7 +308,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 .fh5co-bg-dark {
   background: #2F3C4F;
-  background: #FF9000;
+  background: rgb(26, 24, 23);;
 }
 .fh5co-bg-dark .fh5co-heading h2 {
   color: #fff !important;
@@ -365,7 +365,7 @@ h1, h2, h3, h4, h5, h6, figure {
   display: inline-block;
   zoom: 1;
   *display: inline;
-  color: #FF9000;
+  color: rgb(26, 24, 23);;
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -391,7 +391,7 @@ h1, h2, h3, h4, h5, h6, figure {
   zoom: 1;
   *display: inline;
   color: #fff;
-  background: #2F3C4F;
+  background: #bb2223;
   padding: 10px 10px 2px 10px;
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
@@ -402,7 +402,7 @@ h1, h2, h3, h4, h5, h6, figure {
   font-size: 20px;
 }
 #fh5co-about .fh5co-social-icons li a:hover {
-  background: #FF9000;
+  background: rgb(26, 24, 23);;
 }
 
 .fh5co-heading {
@@ -532,7 +532,7 @@ h1, h2, h3, h4, h5, h6, figure {
   top: 40px;
   left: 50%;
   margin-left: -21px;
-  background-color: #FF9000;
+  background-color: rgb(26, 24, 23);;
   z-index: 100;
   display: table;
   -webkit-border-radius: 50%;
@@ -756,15 +756,17 @@ h1, h2, h3, h4, h5, h6, figure {
 @media screen and (max-width: 768px) {
   .work .desc {
     opacity: 1;
-    background: rgba(255, 255, 255, 0.6);
+    background: rgba(26, 24, 23, 0.6);
   }
   .work .desc h3 {
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
+    color: #fff;
   }
   .work .desc span {
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
+    color: #fff;
   }
 }
 .work:hover .desc {
@@ -801,7 +803,7 @@ h1, h2, h3, h4, h5, h6, figure {
   height: 54px;
   border: none !important;
   background: #fff;
-  color: #FF9000;
+  color: rgb(26, 24, 23);;
   font-size: 16px;
   text-transform: uppercase;
   font-weight: 400;
@@ -1099,6 +1101,10 @@ input[type="text"] {
   transition: 0.5s;
   padding: 8px 20px;
 }
+
+a:hover {
+  cursor: pointer !important;
+}
 .btn.btn-md {
   padding: 8px 20px !important;
 }
@@ -1111,21 +1117,21 @@ input[type="text"] {
 }
 
 .btn-primary {
-  background: #FF9000;
+  background: rgb(26, 24, 23);;
   color: #fff;
-  border: 2px solid #FF9000;
+  border: 2px solid rgb(26, 24, 23);;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background: #ff9b1a !important;
-  border-color: #ff9b1a !important;
+  background: rgb(105, 99, 96) !important;
+  border-color: rgb(105, 99, 96) !important;
 }
 .btn-primary.btn-outline {
   background: transparent;
-  color: #FF9000;
-  border: 2px solid #FF9000;
+  color: rgb(26, 24, 23);;
+  border: 2px solid rgb(26, 24, 23);;
 }
 .btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
-  background: #FF9000;
+  background: rgb(26, 24, 23);;
   color: #fff;
 }
 
@@ -1255,7 +1261,7 @@ input[type="text"] {
 .form-control:active, .form-control:focus {
   outline: none;
   box-shadow: none;
-  border-color: #FF9000;
+  border-color: rgb(26, 24, 23);;
 }
 
 .row-pb-md {
